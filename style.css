@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 2px solid rgba(167, 127, 16, 0.801);
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 4px 6px 4px rgba(204, 138, 100, 0.75);
+    margin-top: 1rem;
+}
+
+form label {
+    font-size: 1.3rem;
+    color: #745a14;
+}
+
+form input {
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid rgb(204, 138, 100);
+    padding: 0.2rem;
+    padding-inline: 0.4rem;
+    font-size: 1.1rem;
+    padding-block: 0.6rem;
+}
+
+form select {
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid rgb(204, 138, 100);
+    padding: 0.2rem;
+    padding-inline: 0.15rem;
+    font-size: 1.1rem;
+    padding-block: 0.6rem;
+}
+
+textarea {
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid rgb(204, 138, 100);
+    padding: 0.2rem;
+    padding-inline: 0.15rem;
+    font-size: 1.1rem;
+    resize: none;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border: 1px solid rgb(204, 138, 100);
+    background-color: burlywood;
+    padding-inline: 0.15rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.2s all;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(110, 67, 11);
+}
